@@ -35,28 +35,37 @@
 ├── giao_dien.py     # Thiết kế giao diện người dùng (GUI) bằng Tkinter & Matplotlib
 ├── thuat_toan.py    # Định nghĩa các hàm xử lý toán học & biến đổi ảnh xám
 └── README.md        # Tài liệu hướng dẫn sử dụng
+```
+---
 
-Yêu cầu hệ thống & Cài đặt
-1. Yêu cầu môi trường
-Python 3.8+
-Tkinter (thường đi kèm sẵn khi cài đặt Python trên Windows)
+## 🛠 Yêu cầu hệ thống & Cài đặt
 
-2. Cài đặt các thư viện phụ thuộc
-Mở Terminal / Command Prompt và chạy lệnh: pip install opencv-python numpy matplotlib
+### 1. Yêu cầu môi trường
+* **Python 3.8+**
+* **Tkinter** (thường đi kèm sẵn khi cài đặt Python trên Windows)
 
-Hướng dẫn khởi chạy
-Chạy file main.py để khởi động ứng dụng: python main.py
+### 2. Cài đặt các thư viện phụ thuộc
+Mở Terminal / Command Prompt và chạy lệnh:
 
-Hướng dẫn sử dụng
-1.Chọn ảnh đầu vào: Nhấn nút 📂 Chọn ảnh đầu vào để tải ảnh cần xử lý.
-2.Chọn thuật toán: Chọn thuật toán mong muốn tại menu danh sách thả xuống (Combobox).
-3.Tùy chỉnh tham số (nếu có):
-    Với Gamma / Phân ngưỡng / Bit-plane: Kéo slider đơn để thay đổi tham số tương ứng.
-    Với Contrast Stretching / Gray-level Slicing: Sử dụng slider đôi để chỉnh ngưỡng thấp (rmin/a) và ngưỡng cao (rmax/b).
-    Với Histogram Matching: Nhấn nút 📂 Chọn ảnh tham chiếu để tải ảnh mẫu.
-4.Xem kết quả: Ảnh kết quả và Histogram tương ứng sẽ được cập nhật thời gian thực (Real-time).
-5.Lưu ảnh: Nhấn nút 💾 Lưu ảnh kết quả để xuất ảnh ra định dạng PNG hoặc JPEG.
-6.Đặt lại: Nhấn nút 🔄 Đặt lại nếu muốn làm mới ứng dụng về trạng thái ban đầu.
+```bash
+pip install opencv-python numpy matplotlib
+```
+---
 
-Giấy phép (License)
-Dự án được phát triển phục vụ mục đích học tập và nghiên cứu môn Xử lý ảnh kỹ thuật số (Digital Image Processing).
+## 📖 Hướng dẫn sử dụng
+
+1. **Chọn ảnh đầu vào:** Nhấn nút 📂 **Chọn ảnh đầu vào** để tải ảnh cần xử lý.
+2. **Chọn thuật toán:** Chọn thuật toán mong muốn tại menu danh sách thả xuống (Combobox).
+3. **Tùy chỉnh tham số (nếu có):**
+   * Với **Gamma / Phân ngưỡng / Bit-plane**: Kéo slider đơn để thay đổi tham số tương ứng.
+   * Với **Contrast Stretching / Gray-level Slicing**: Sử dụng slider đôi để chỉnh ngưỡng thấp ($r_{min}/a$) và ngưỡng cao ($r_{max}/b$).
+   * Với **Histogram Matching**: Nhấn nút 📂 **Chọn ảnh tham chiếu** để tải ảnh mẫu.
+4. **Xem kết quả:** Ảnh kết quả và Histogram tương ứng sẽ được cập nhật thời gian thực (Real-time).
+5. **Lưu ảnh:** Nhấn nút 💾 **Lưu ảnh kết quả** để xuất ảnh ra định dạng PNG hoặc JPEG.
+6. **Đặt lại:** Nhấn nút 🔄 **Đặt lại** nếu muốn làm mới ứng dụng về trạng thái ban đầu.
+
+---
+
+## 📜 Giấy phép (License)
+
+Dự án được phát triển phục vụ mục đích học tập và nghiên cứu môn **Xử lý ảnh kỹ thuật số (Digital Image Processing)**.
